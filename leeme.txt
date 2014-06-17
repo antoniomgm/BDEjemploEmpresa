@@ -1,0 +1,3 @@
+Este proyecto representa la ampliación de un trabajo conjunto realizado para la asignatura Gestión de Bases de datos de Grado Superior.
+
+Se pretende crear una aplicación, mediante una base de datos en SQL, de forma que se pueda realizar todo tipo de operaciones necesarias para gestionar la empresa.
