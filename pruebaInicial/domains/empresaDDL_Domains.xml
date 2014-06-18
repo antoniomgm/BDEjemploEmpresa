@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="empresaDDL_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="FLOAT_0_0_0" id="2CCAFE18-EB80-BA0A-6080-60EDE9A74D89">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT021</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_5" id="2E0E12C9-A997-0C00-6140-266F88F8C86F">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>5</dataTypeSize>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_25" id="4720BC00-81B2-7788-3CB1-40B82CF51BA8">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>25</dataTypeSize>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="78E464AF-6796-95CB-AFFF-B4B5878204CB">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>20</dataTypeSize>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="83BE4407-FA88-E5A6-C3CC-AFBC0B09AAB9">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>10</dataTypeSize>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_0" id="8501C3E5-31CB-B516-7389-0D6869E5109A">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_250" id="8C4959A9-8B3C-1E23-36CD-53D8A244F6A1">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>250</dataTypeSize>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="8ECFB05C-E45D-CCEF-67AB-F8F611A05DA5">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="DECIMAL_0_0_0" id="948EA3AB-F8A9-01D4-95EF-B388EB210398">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT026</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_11" id="97937856-7856-8DCF-248E-2E0F061DC852">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>11</dataTypeSize>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="A488E8E7-706C-2D58-7096-2882B454062F">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>50</dataTypeSize>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="C827E131-712F-36D6-CD19-B35E8BAB0898">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>255</dataTypeSize>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="CE26F69D-4F3C-2677-3251-8748006B36B0">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="E1F13064-1C0C-782A-B4B2-9AE6D1473A4F">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_23" id="F587D690-6BCD-C95A-6FC8-4C4F07017F7B">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>23</dataTypeSize>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_9" id="F58E537E-7E2E-59EB-B41C-EFD73FE7EC24">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>9</dataTypeSize>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_150" id="FE6F69E6-C384-F2E4-51A2-D4CE085CEDA6">
+         <createdBy>Xonly</createdBy>
+         <createdTime>2014-06-17 16:30:24 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>pruebaInicial</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>150</dataTypeSize>
+         <fileName>empresaDDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LineasDetalleSalidas" directorySegmentName="seg_0" id="45A40D5F-15B6-5B1E-9648-EAC236A5544C">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_modelo" id="06778EFD-7DCC-28D4-F915-A1887512A15F">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Id_pedido" id="42B59C1F-91A0-B051-963D-6529E7FE2A3F">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_fabricante" id="6BA4C549-F810-4445-329D-850CFDBACA16">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CantidadServida" id="6BE25475-8F94-F9FD-CE54-F13A6689B947">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CantidadPendienteServ" id="7953FEE2-276A-F782-CC6A-1CACD2C50D65">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_albaran_cli" id="84FEBE8D-CF9E-DEF6-2A89-D9BE65EDBF9B">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_articulo" id="93ABCC88-E17A-4FD3-BF6A-A5510B95AF02">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CantidadPedida" id="A936F9C5-E7C8-BBDC-EAC0-32B20CEA4354">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDLineaDetalleVentas" id="E4CD94AD-8D6E-C6C0-514E-3D39D917D4EC">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Albaran_Cliente_LineasDetalleSalidas" id="5C904C13-68D8-5D38-A8B4-4E2B92D6129B">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Modelo_LineasDetalleSalidas" id="88657BAB-F4F8-5710-D225-CE69EEB2D26C">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pedidos_clientes_LineasDetalleSalidas" id="DD4B6C36-21A3-8ABE-D299-74343E70DB57">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_LineasDetalleSalidas" id="012A2349-CF00-54FD-E62B-4C8F6490053D">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

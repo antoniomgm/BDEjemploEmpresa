@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1BA2FE7-2F6D-8CE3-8B0D-4EAB5AFA5E36" name="VinculacionAlbPedProv">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>DE2623E0-0F9C-C0AA-4F50-8FEDA43DEF42</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_pedido_proveedor" id="2E984832-E38E-7A45-F2A8-60996CF6400A">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>C3814947-940A-95A1-32A4-E70997EFDAD7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>2DFA0654-B384-46E1-F0BD-3E3DA97BCA9C</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0084CE0B-19C4-DFEB-3EF6-A6756E3E36AF" referredColumn="2DFA0654-B384-46E1-F0BD-3E3DA97BCA9C"/>
+</associations>
+</Column>
+<Column name="ID_albaran_proveedor" id="4A66A9F3-9AF6-A897-98AC-64D972ECDE65">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>8DEA9409-28D1-BAE5-B199-4F36D2B6991A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>5DED7420-70E1-E564-0195-47D4A9D010B6</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BBE0FD3-CA9E-3858-D093-FA03C53B8A4A" referredColumn="5DED7420-70E1-E564-0195-47D4A9D010B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21555819-8D0D-CFE2-8FE7-75775A40ABF8" name="PK_VinculacionAlbPedProv">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>50AE7645-469F-1607-F0A8-FD5547EEBE39</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E984832-E38E-7A45-F2A8-60996CF6400A"/>
+<colUsage columnID="4A66A9F3-9AF6-A897-98AC-64D972ECDE65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDDD976C-9503-37E2-8911-E839F79E432C" name="Albaran_proveedor_VinculacionAlbPedProv">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A66A9F3-9AF6-A897-98AC-64D972ECDE65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9D45B39-C1F5-B266-EAE3-A5E399F173F7" name="Pedido_proveedor_VinculacionAlbPedProv">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E984832-E38E-7A45-F2A8-60996CF6400A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

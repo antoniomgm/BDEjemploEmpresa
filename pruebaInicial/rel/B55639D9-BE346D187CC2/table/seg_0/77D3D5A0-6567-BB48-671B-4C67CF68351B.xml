@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77D3D5A0-6567-BB48-671B-4C67CF68351B" name="Pedidos_clientes">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>3AB4D188-BA3B-82E7-E640-DC6658C7577C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_pedido" id="ABD59032-5D07-66B3-E753-B25248F90B06">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>EDEB09FC-2BDD-9940-6AC2-87FD8F51B313</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_cliente" id="BF190AD0-5155-CDA8-9190-1F3D367F5679">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>997D0480-F307-4CD6-67CD-970404205E3A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>50CE8A50-94BC-6BFD-8611-F9531A02234A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C4DA1B5-B670-0BE3-FE45-4C4AC19DC0E9" referredColumn="50CE8A50-94BC-6BFD-8611-F9531A02234A"/>
+</associations>
+</Column>
+<Column name="fecha_pedido" id="F0A0FA0B-5965-18DA-7980-ED6350CAEB1B">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>C9185A68-87D6-624E-B203-60B66B160A89</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8ECFB05C-E45D-CCEF-67AB-F8F611A05DA5</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_entrega" id="E1ED7E18-98E4-21FF-CBE6-2BFF91C03CC1">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>0FE46417-060A-A1C5-3183-7A3A7A9B031D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8ECFB05C-E45D-CCEF-67AB-F8F611A05DA5</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="06AA7B08-6689-E04D-6D99-84460D188E92">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>9A4C47C6-B64F-E21A-A2DC-891FC3A6F41F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C827E131-712F-36D6-CD19-B35E8BAB0898</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="importe" id="97995372-239F-4FC8-67CE-F2EC157BF461">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>09F1C1AA-C7F6-E446-51E0-7F924AC3E3FE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>948EA3AB-F8A9-01D4-95EF-B388EB210398</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDImpuesto" id="97639EA6-790F-A17D-B67F-032DF7B31D64">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>7224FB9A-BCDB-68A3-4C97-DCE03A5B7FD9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>1B439E99-7895-EB44-F6DD-7094F06C11B6</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4703A4B-ECC6-CFA0-28C3-94D4F782CF04" referredColumn="1B439E99-7895-EB44-F6DD-7094F06C11B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E68FDD6-72D2-880E-DFD5-918FAA966524" name="PK_Pedidos_clientes">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>8686E337-4EFB-DFE2-9ED8-4098178B6AE1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABD59032-5D07-66B3-E753-B25248F90B06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06BF66B2-3C74-A9A3-D6DD-A79673E471A6" name="Cliente_Pedidos_clientes">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF190AD0-5155-CDA8-9190-1F3D367F5679"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="800F36D9-EBD4-9767-BE59-66597B493093" name="Impuestos_Pedidos_clientes">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97639EA6-790F-A17D-B67F-032DF7B31D64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

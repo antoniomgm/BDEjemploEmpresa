@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E165C24-EA05-3005-08ED-41B32556E3F0" name="OT">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>B8874997-E9DC-3833-CB7A-416B7CD893BF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_OT" id="B7A5962B-9344-4AF5-4237-1CBAC9515F6D">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>F9B84067-987B-93C7-27DC-9B0443A0D688</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_recepcion" id="ABE58BC1-A423-F32F-0387-2AEEDF409B4F">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>27DE946E-4F17-EE51-505C-57BA84823A60</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8ECFB05C-E45D-CCEF-67AB-F8F611A05DA5</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_dispositivo_averiado" id="B166D8A3-5D3A-E1AA-1620-1410FF2C8515">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>09613A36-C558-226A-E358-E4B4A8ABE219</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>3A03525C-6117-23EA-55D2-6F2266E66146</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D853B1F3-6CD5-AB21-817E-29EB266E4812" referredColumn="3A03525C-6117-23EA-55D2-6F2266E66146"/>
+</associations>
+</Column>
+<Column name="ID_cliente" id="05BD3175-9D2C-A5A4-E320-18358946C04C">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>6BC2D973-3249-70B1-B655-684A26699DB1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>50CE8A50-94BC-6BFD-8611-F9531A02234A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49B6AE3F-D2CC-FB32-3C56-80BACE79130C" referredColumn="50CE8A50-94BC-6BFD-8611-F9531A02234A"/>
+</associations>
+</Column>
+<Column name="ID_albaran_cli" id="3E377B5D-A954-32F1-C26B-D0593928725D">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>637CF31F-C9FC-C6DC-74A2-8EA732DB1098</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>78AFD1E8-CA08-AA5F-3B96-3518567AC1FC</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C37CC2B2-54B9-2E8D-AC55-924025B123FE" referredColumn="78AFD1E8-CA08-AA5F-3B96-3518567AC1FC"/>
+</associations>
+</Column>
+<Column name="sintoma_averia" id="7B3AC46B-142F-91F9-CACF-965470C96FEB">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>9F3A761A-8B5C-B917-0E7C-592A52390398</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8501C3E5-31CB-B516-7389-0D6869E5109A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E2204D0-F40B-4C37-4711-7B1CF3D20ED4" name="PK_OT">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>4F974CAB-5496-2148-8A54-11977F4294E7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7A5962B-9344-4AF5-4237-1CBAC9515F6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F260CC2-0616-ABBA-A6A9-9D300BD2F111" name="Albaran_Cliente_OT">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E377B5D-A954-32F1-C26B-D0593928725D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1A6211C-EE65-9F8E-A066-ACA51447D87D" name="Cliente_OT">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05BD3175-9D2C-A5A4-E320-18358946C04C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B592CC5-D20C-97E9-463F-34BC1D81E978" name="Dispositivo_averiado_OT">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B166D8A3-5D3A-E1AA-1620-1410FF2C8515"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

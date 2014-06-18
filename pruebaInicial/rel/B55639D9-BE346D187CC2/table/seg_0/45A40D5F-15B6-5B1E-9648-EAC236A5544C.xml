@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45A40D5F-15B6-5B1E-9648-EAC236A5544C" name="LineasDetalleSalidas">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>D2A5C499-2D4E-5344-686A-CA062467CADC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDLineaDetalleVentas" id="E4CD94AD-8D6E-C6C0-514E-3D39D917D4EC">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>9EEDFF78-1F86-2552-48C4-98656168009E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CantidadPedida" id="A936F9C5-E7C8-BBDC-EAC0-32B20CEA4354">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>CB7BC4B9-BB08-5938-4795-32B1E0817A70</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CantidadServida" id="6BE25475-8F94-F9FD-CE54-F13A6689B947">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>6B0DAB9A-7563-2A93-55DF-BEF9072E4B5E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CantidadPendienteServ" id="7953FEE2-276A-F782-CC6A-1CACD2C50D65">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>4BB954D0-1622-CD05-4913-599549600AFA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_pedido" id="42B59C1F-91A0-B051-963D-6529E7FE2A3F">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>09242A74-04B3-12F2-F33D-88586D76CE9D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>ABD59032-5D07-66B3-E753-B25248F90B06</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76F826E0-9E1C-9B15-88E7-A436DBAD8966" referredColumn="ABD59032-5D07-66B3-E753-B25248F90B06"/>
+</associations>
+</Column>
+<Column name="ID_albaran_cli" id="84FEBE8D-CF9E-DEF6-2A89-D9BE65EDBF9B">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>D870E012-EF35-FF63-38E9-20B1ECE136A7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>78AFD1E8-CA08-AA5F-3B96-3518567AC1FC</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EFFC5ED-F5A2-7003-277C-473684527AD5" referredColumn="78AFD1E8-CA08-AA5F-3B96-3518567AC1FC"/>
+</associations>
+</Column>
+<Column name="ID_articulo" id="93ABCC88-E17A-4FD3-BF6A-A5510B95AF02">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>6BDEBFDD-F0D7-314D-829D-DAD8823D6793</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_modelo" id="06778EFD-7DCC-28D4-F915-A1887512A15F">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>F349876F-817F-393B-66C9-5325316C9849</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>0EA7B8C2-08DB-172F-D974-3180992A6877</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="029EEDAD-781A-AD2E-73F3-161EE0B26E6F" referredColumn="0EA7B8C2-08DB-172F-D974-3180992A6877"/>
+</associations>
+</Column>
+<Column name="ID_fabricante" id="6BA4C549-F810-4445-329D-850CFDBACA16">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>226A2CC9-5051-1BC2-7DB5-9B06EF21FB61</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>AEA8B42C-AF69-A1CA-A86F-A64D8C5292AD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="029EEDAD-781A-AD2E-73F3-161EE0B26E6F" referredColumn="AEA8B42C-AF69-A1CA-A86F-A64D8C5292AD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="012A2349-CF00-54FD-E62B-4C8F6490053D" name="PK_LineasDetalleSalidas">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>63B40F16-A2FB-6ED3-E2E7-60B1BB930C43</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4CD94AD-8D6E-C6C0-514E-3D39D917D4EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C904C13-68D8-5D38-A8B4-4E2B92D6129B" name="Albaran_Cliente_LineasDetalleSalidas">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84FEBE8D-CF9E-DEF6-2A89-D9BE65EDBF9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88657BAB-F4F8-5710-D225-CE69EEB2D26C" name="Modelo_LineasDetalleSalidas">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06778EFD-7DCC-28D4-F915-A1887512A15F"/>
+<colUsage columnID="6BA4C549-F810-4445-329D-850CFDBACA16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD4B6C36-21A3-8ABE-D299-74343E70DB57" name="Pedidos_clientes_LineasDetalleSalidas">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42B59C1F-91A0-B051-963D-6529E7FE2A3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

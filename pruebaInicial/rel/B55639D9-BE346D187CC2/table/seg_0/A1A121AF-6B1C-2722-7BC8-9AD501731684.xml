@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1A121AF-6B1C-2722-7BC8-9AD501731684" name="Articulo_Fabricante">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>AED6A09A-060A-6CC9-A8E8-11BBA6AD0851</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_articulo" id="58E47E22-45BE-9BEE-8AD3-56A725FC33F5">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>85ED6F5D-DC40-C874-C0F8-035DBF665BDE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>FA7ACD96-1708-423C-06E4-06C972FBC868</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B603B49-3EEC-6334-F720-3665E0AD5E70" referredColumn="FA7ACD96-1708-423C-06E4-06C972FBC868"/>
+</associations>
+</Column>
+<Column name="ID_fabricante" id="CCEFA100-8BF7-5988-9536-CD75C553486F">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>E0DE7D20-3C05-08B3-25FC-7EFECDECF6F1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>49BFAB64-2C4C-71FD-9F77-04C243FD0BC6</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D31DDEDC-DE9A-802E-6CEF-4A3491B9B042" referredColumn="49BFAB64-2C4C-71FD-9F77-04C243FD0BC6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C9555DA-BCD1-6CA8-442F-444A860344AC" name="PK_Articulo_Fabricante">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>D069F283-CB2E-816A-62A9-B5542FD1BE94</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58E47E22-45BE-9BEE-8AD3-56A725FC33F5"/>
+<colUsage columnID="CCEFA100-8BF7-5988-9536-CD75C553486F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67DF0658-A567-38D2-6120-24E262978762" name="Articulo_Articulo_Fabricante">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58E47E22-45BE-9BEE-8AD3-56A725FC33F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DE1BB41-42B5-3D69-2A02-5986E6E0E472" name="Fabricante_Articulo_Fabricante">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCEFA100-8BF7-5988-9536-CD75C553486F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

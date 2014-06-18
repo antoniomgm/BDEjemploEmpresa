@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CE68E85-7E8F-BDC2-F32F-D2DF97B51D27" name="Pago_Factura_Cliente">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>46CA9162-7BC9-C73E-9F29-B4BF520BFBAD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_pago_factura_cli" id="864EAE0B-8AD6-D506-E3CA-021B4424818A">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>CB88E2F2-3BE3-2BA8-B8A6-1571634FD12F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_pago" id="1927C6D2-3DDF-7353-5613-36592FC350B0">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>72E10DFB-917F-7D50-F69A-6B9146AB853A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8ECFB05C-E45D-CCEF-67AB-F8F611A05DA5</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="importe" id="E8FD575D-CA24-FAF8-FCF6-2BB05EDE449D">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>58623B88-0341-D196-3C5D-B11B7C02B91E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>948EA3AB-F8A9-01D4-95EF-B388EB210398</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_factura_cliente" id="6DE41B1F-9208-05C2-5B08-0D455E06134D">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>516CC6BB-C113-C014-D004-C4C42DDA6EE4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>A4B7F81F-2D00-091F-3A39-7578FD7AA946</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C20B518-AB3E-CB27-7527-03F98C810A26" referredColumn="A4B7F81F-2D00-091F-3A39-7578FD7AA946"/>
+</associations>
+</Column>
+<Column name="ID_forma_pago" id="F8ED44C6-3065-F6E6-1FB2-9BB1336CADD6">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>C54E6E0C-3BAC-C501-CE6D-5D101141BACD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>FD7EFBC0-E860-9387-8000-D4EA07C39BDB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2E61D83-5539-9A2B-3A46-BBF65607DB71" referredColumn="FD7EFBC0-E860-9387-8000-D4EA07C39BDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="639CB73C-AAB0-1D62-BCB4-2A67F670D921" name="PK_Pago_Factura_Cliente">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>8B16CC36-AA4E-1140-DB35-E151377705E4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="864EAE0B-8AD6-D506-E3CA-021B4424818A"/>
+<colUsage columnID="6DE41B1F-9208-05C2-5B08-0D455E06134D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D2390E2-130F-34EF-0824-3E026B792054" name="Factura_cliente_Pago_Factura_Cliente">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DE41B1F-9208-05C2-5B08-0D455E06134D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A59B29E-D89A-FAB6-C41C-2F503E72087E" name="Formas_pago_Pago_Factura_Cliente">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8ED44C6-3065-F6E6-1FB2-9BB1336CADD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

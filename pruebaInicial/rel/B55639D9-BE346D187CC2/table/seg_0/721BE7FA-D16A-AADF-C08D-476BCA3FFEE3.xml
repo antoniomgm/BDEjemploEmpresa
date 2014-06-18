@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="721BE7FA-D16A-AADF-C08D-476BCA3FFEE3" name="Pedido_proveedor">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>1B0857F6-CD71-B66F-865D-BEB834CBD7AF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_pedido_proveedor" id="2DFA0654-B384-46E1-F0BD-3E3DA97BCA9C">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>FD1D188F-77BD-273F-741A-A7B69A27B1B5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_proveedor" id="597C4EEB-350A-15BD-8105-655F40B7EB2E">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>1199E431-ED98-DC35-16EB-B228C52E9DBA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>D7D58C81-F5B0-FB24-1AA6-29C3E412D947</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB36126C-D961-26D5-54B5-7B2DD063D6BE" referredColumn="D7D58C81-F5B0-FB24-1AA6-29C3E412D947"/>
+</associations>
+</Column>
+<Column name="observaciones" id="0EC087D1-9F54-4FA2-BCDF-66D981ABF2FD">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>72587F26-7E00-AB64-863B-9B0643020A86</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C827E131-712F-36D6-CD19-B35E8BAB0898</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_pedido" id="B94D30CC-A6CE-3741-1A6A-45F2ABFE1A56">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>2F6F35F5-C7C7-F955-31F4-BDAE8623D5FA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8ECFB05C-E45D-CCEF-67AB-F8F611A05DA5</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_servido" id="3A10D145-06F8-5339-B3C5-866F9ED986A0">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>1872420C-1BD7-0544-CAC4-A6178F392969</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8ECFB05C-E45D-CCEF-67AB-F8F611A05DA5</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDImpuesto" id="21EAD7FE-1A5C-60CD-32EB-6F2432CE32A2">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>32248326-0052-E178-007D-35BB66417518</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>1B439E99-7895-EB44-F6DD-7094F06C11B6</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3B1B8E6-7AD0-8EF2-8436-256C2478CE0A" referredColumn="1B439E99-7895-EB44-F6DD-7094F06C11B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F0BD6F2-01A0-06BA-B4B7-A9097D4749BD" name="PK_Pedido_proveedor">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>3E060CF4-51DC-C053-F12E-D1012DEF8AFA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DFA0654-B384-46E1-F0BD-3E3DA97BCA9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86CC09DC-0F3C-4B3F-0900-533E8214A814" name="Impuestos_Pedido_proveedor">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21EAD7FE-1A5C-60CD-32EB-6F2432CE32A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30368A0B-2EA1-8DDD-C64B-A24D36175028" name="Proveedor_Pedido_proveedor">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="597C4EEB-350A-15BD-8105-655F40B7EB2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

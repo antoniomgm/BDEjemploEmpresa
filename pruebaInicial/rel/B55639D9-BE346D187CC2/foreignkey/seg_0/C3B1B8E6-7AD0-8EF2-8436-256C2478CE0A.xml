@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3B1B8E6-7AD0-8EF2-8436-256C2478CE0A" name="Impuestos_Pedido_proveedor">
+<sourceDDLFile>empresaDML.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>058CA71D-FD43-1C84-F70A-6A163001BAAF</importedID>
+<containerWithKeyObject>721BE7FA-D16A-AADF-C08D-476BCA3FFEE3</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>86CC09DC-0F3C-4B3F-0900-533E8214A814</localFKIndex>
+<keyObject>290DF752-53BE-75C0-3301-F588D92FEF5F</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

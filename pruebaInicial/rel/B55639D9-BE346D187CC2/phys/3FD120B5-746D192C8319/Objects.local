@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="0A3F7D27-A098-4551-2E7C-A4F2D68D58B3" name="Fabricante" seqName="seg_0"/>
+   <object objectType="Table" objectID="0C172EEC-9344-956F-3FD6-E7C8ECEDBE76" name="Catalogo_productos" seqName="seg_0"/>
+   <object objectType="Table" objectID="2E0D6198-F9A3-A6EE-FF23-A1665E51A699" name="Modelo" seqName="seg_0"/>
+   <object objectType="Table" objectID="3CE68E85-7E8F-BDC2-F32F-D2DF97B51D27" name="Pago_Factura_Cliente" seqName="seg_0"/>
+   <object objectType="Table" objectID="45A40D5F-15B6-5B1E-9648-EAC236A5544C" name="LineasDetalleSalidas" seqName="seg_0"/>
+   <object objectType="Table" objectID="492B0E70-BB72-0B19-C668-53FD7DFE6455" name="Factura_cliente" seqName="seg_0"/>
+   <object objectType="Table" objectID="4CA7FD21-3711-6EC2-1D7F-010173B91345" name="Dispositivo_averiado" seqName="seg_0"/>
+   <object objectType="Table" objectID="4DCDA50E-498B-89B9-C25D-36E509B1AC1C" name="Ejemplar" seqName="seg_0"/>
+   <object objectType="Table" objectID="5D0BEF1E-7AC2-8AFC-F26E-564110B3BB2A" name="Almacen" seqName="seg_0"/>
+   <object objectType="Table" objectID="5FEFE5B9-0FB7-AEF4-A490-15F70B7FE0D0" name="Albaran_Cliente" seqName="seg_0"/>
+   <object objectType="Table" objectID="6B4DB53E-727C-20AB-73EE-4E882C448401" name="Albaran_proveedor" seqName="seg_0"/>
+   <object objectType="Table" objectID="721BE7FA-D16A-AADF-C08D-476BCA3FFEE3" name="Pedido_proveedor" seqName="seg_0"/>
+   <object objectType="Table" objectID="76894C7A-FBF9-6170-0DA7-CB9842FAE6A1" name="Presupuestos" seqName="seg_0"/>
+   <object objectType="Table" objectID="771E79FD-2B64-B1D8-76D0-7C9BCAEAE927" name="Impuestos" seqName="seg_0"/>
+   <object objectType="Table" objectID="77D3D5A0-6567-BB48-671B-4C67CF68351B" name="Pedidos_clientes" seqName="seg_0"/>
+   <object objectType="Table" objectID="7E165C24-EA05-3005-08ED-41B32556E3F0" name="OT" seqName="seg_0"/>
+   <object objectType="Table" objectID="8458D0D2-7FB3-8111-A0EA-9E5CF38560CA" name="Cliente" seqName="seg_0"/>
+   <object objectType="Table" objectID="A1A121AF-6B1C-2722-7BC8-9AD501731684" name="Articulo_Fabricante" seqName="seg_0"/>
+   <object objectType="Table" objectID="B27DE3D8-7A57-9CC7-7E16-272AC4B648CF" name="Albaran_Cliente_Pedidos_clientes" seqName="seg_0"/>
+   <object objectType="Table" objectID="B71D22B8-F1E9-79FC-8BF2-D48B6E67B782" name="Tecnico" seqName="seg_0"/>
+   <object objectType="Table" objectID="B7310AD2-FAC8-39DC-6221-900EF3DE2F94" name="OT_Detalle_Ejemplar" seqName="seg_0"/>
+   <object objectType="Table" objectID="BD9611FC-851C-48D6-32CE-DBFD0FD12D0D" name="LineasDetalleAbastecimiento" seqName="seg_0"/>
+   <object objectType="Table" objectID="C1BA2FE7-2F6D-8CE3-8B0D-4EAB5AFA5E36" name="VinculacionAlbPedProv" seqName="seg_0"/>
+   <object objectType="Table" objectID="C485567B-B123-A47F-80D9-5B4DF6C1B07F" name="Articulo" seqName="seg_0"/>
+   <object objectType="Table" objectID="D37FAF7A-BDD0-B9EC-F436-AF54393937B9" name="Formas_pago" seqName="seg_0"/>
+   <object objectType="Table" objectID="EE43AEB2-DB80-FCE6-8B6A-5AB1426FD21A" name="OT_Detalle" seqName="seg_0"/>
+   <object objectType="Table" objectID="F40A5F60-36BD-DFA7-A4AB-C0D6283F107D" name="Proveedor" seqName="seg_0"/>
+   <object objectType="Table" objectID="FB759345-1C96-3360-E380-D2A827F1C246" name="Actuacion" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>

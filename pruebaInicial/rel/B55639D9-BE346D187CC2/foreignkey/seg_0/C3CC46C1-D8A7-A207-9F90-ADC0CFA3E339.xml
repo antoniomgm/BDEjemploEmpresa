@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3CC46C1-D8A7-A207-9F90-ADC0CFA3E339" name="Albaran_Cliente_Albaran_Cliente_Pedidos_clientes">
+<sourceDDLFile>empresaDML.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>9CB30CF8-37AD-D9D9-726B-AC3C2396E26F</importedID>
+<containerWithKeyObject>B27DE3D8-7A57-9CC7-7E16-272AC4B648CF</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>9DD4BDBC-0445-7A2D-E069-E0A9D7B686EA</localFKIndex>
+<keyObject>67FCFBB8-89D0-2C9F-F6E0-01C688BDA847</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

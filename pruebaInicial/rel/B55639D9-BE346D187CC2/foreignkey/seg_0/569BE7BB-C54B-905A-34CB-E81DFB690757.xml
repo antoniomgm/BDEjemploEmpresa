@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="569BE7BB-C54B-905A-34CB-E81DFB690757" name="Articulo_Fabricante_LineasDetalleAbastecimiento">
+<sourceDDLFile>empresaDML.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>5C067184-FCE0-C6A4-E63A-22ECAF64CDCF</importedID>
+<containerWithKeyObject>BD9611FC-851C-48D6-32CE-DBFD0FD12D0D</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>7A8F2D52-32A0-6AC8-B660-5E6174B47416</localFKIndex>
+<keyObject>8C9555DA-BCD1-6CA8-442F-444A860344AC</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

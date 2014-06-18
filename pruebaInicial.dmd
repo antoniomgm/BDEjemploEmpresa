@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="pruebaInicial" id="E8C854FD-F5D6-4332-7BB2-F7DC733E33E6" version="3.5">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:21:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E8C854FD-F5D6-4332-7BB2-F7DC733E33E6</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C249CD3C-D8BD-5F7C-AB66-163C823B99FC">
+<designStoragePath>I:\empresaDDL</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

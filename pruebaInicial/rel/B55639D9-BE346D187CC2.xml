@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="B55639D9-3368-8536-A8AA-BE346D187CC2" mainViewID="B349B1E2-9BF9-6CD2-7BFD-7F7834AE044E">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:22:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>empresaDDL.sql</fileName>
+<pathName>I:\2013\GBD\de paco y Jose Antonio Clavero</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>empresaDML.sql</fileName>
+<pathName>I:\2013\GBD\de paco y Jose Antonio Clavero</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

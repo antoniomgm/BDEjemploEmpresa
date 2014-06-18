@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7310AD2-FAC8-39DC-6221-900EF3DE2F94" name="OT_Detalle_Ejemplar">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>DD9DA9CD-0905-F8BF-52BE-E3006588901F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_OT" id="9BDDA884-EAB1-7463-9261-43C85DEAA891">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>8F1C8402-81D2-94AB-B7D3-F56F04A2609D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>545A2DD6-9172-ADEB-3260-0C7E5C62DF09</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1E1E818-90ED-178D-8572-7027BC7030F9" referredColumn="545A2DD6-9172-ADEB-3260-0C7E5C62DF09"/>
+</associations>
+</Column>
+<Column name="ID_actuacion" id="17D0B6B2-4B8E-57CC-E563-21EA206A3527">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>95A7F460-3F75-AA14-4153-2DDF39D92018</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>B3A70539-1974-C714-536D-133E97A1E141</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1E1E818-90ED-178D-8572-7027BC7030F9" referredColumn="B3A70539-1974-C714-536D-133E97A1E141"/>
+</associations>
+</Column>
+<Column name="IDEjemplar" id="845F562E-ED9C-1B3D-16A2-E91B4E0B7802">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>C6369A9C-8392-E29F-DCD2-70B6807E726B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>AD94C7B7-F832-94E5-1400-1ACAE5B8E6CE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="578BF93F-D981-FA95-8AA2-BE3286E5CDFF" referredColumn="AD94C7B7-F832-94E5-1400-1ACAE5B8E6CE"/>
+</associations>
+</Column>
+<Column name="ID_modelo" id="08FD761B-CF83-BDD9-C47D-D1D9C4DFEEAE">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>956434E7-7D09-D761-73E6-E6B83BD00E95</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>C0A2ADCB-D63B-426A-EAF0-2450E106C20F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="578BF93F-D981-FA95-8AA2-BE3286E5CDFF" referredColumn="C0A2ADCB-D63B-426A-EAF0-2450E106C20F"/>
+</associations>
+</Column>
+<Column name="ID_fabricante" id="0B6910C3-368E-A336-17F4-9F329903E626">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>7A26E5DB-C098-84E7-8202-F9CD8C1A90C0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E1F13064-1C0C-782A-B4B2-9AE6D1473A4F</domain>
+<delegate>EBD62AA1-B4F3-3DE9-D5F6-7624B115EFC1</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="578BF93F-D981-FA95-8AA2-BE3286E5CDFF" referredColumn="EBD62AA1-B4F3-3DE9-D5F6-7624B115EFC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55221D78-EE95-0339-88F6-831796D24CA9" name="PK_OT_Detalle_Ejemplar">
+<sourceDDLFile>empresaDDL.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>0AB22952-5737-0F18-86AB-29E409C99BA7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BDDA884-EAB1-7463-9261-43C85DEAA891"/>
+<colUsage columnID="17D0B6B2-4B8E-57CC-E563-21EA206A3527"/>
+<colUsage columnID="845F562E-ED9C-1B3D-16A2-E91B4E0B7802"/>
+<colUsage columnID="08FD761B-CF83-BDD9-C47D-D1D9C4DFEEAE"/>
+<colUsage columnID="0B6910C3-368E-A336-17F4-9F329903E626"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="827D7640-CB70-2727-EC2F-A674E9AF52E8" name="Ejemplar_OT_Detalle_Ejemplar">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="845F562E-ED9C-1B3D-16A2-E91B4E0B7802"/>
+<colUsage columnID="08FD761B-CF83-BDD9-C47D-D1D9C4DFEEAE"/>
+<colUsage columnID="0B6910C3-368E-A336-17F4-9F329903E626"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63F61A66-CE5E-0D00-5CEB-3E1EF378F29F" name="OT_Detalle_OT_Detalle_Ejemplar">
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BDDA884-EAB1-7463-9261-43C85DEAA891"/>
+<colUsage columnID="17D0B6B2-4B8E-57CC-E563-21EA206A3527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

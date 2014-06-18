@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D2E61D83-5539-9A2B-3A46-BBF65607DB71" name="Formas_pago_Pago_Factura_Cliente">
+<sourceDDLFile>empresaDML.sql</sourceDDLFile>
+<createdBy>Xonly</createdBy>
+<createdTime>2014-06-17 16:30:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>pruebaInicial</ownerDesignName>
+<importedID>A7A03664-3653-A648-9743-460A0192C59F</importedID>
+<containerWithKeyObject>3CE68E85-7E8F-BDC2-F32F-D2DF97B51D27</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>3A59B29E-D89A-FAB6-C41C-2F503E72087E</localFKIndex>
+<keyObject>02061406-1BB0-F70B-CA4E-9DABE9F1AB4C</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
